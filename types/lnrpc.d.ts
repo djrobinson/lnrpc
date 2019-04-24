@@ -222,7 +222,7 @@ export interface LightningNode {
   lastUpdate: number;
   pubKey: string;
   alias: string;
-  addresses: NodeAddress;
+  addresses: NodeAddress[];
   color: string;
 }
 
